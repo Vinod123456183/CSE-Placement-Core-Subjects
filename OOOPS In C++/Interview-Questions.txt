@@ -1,0 +1,33 @@
+🔹 Basic to Intermediate OOPs Questions
+
+Student Class || Bank Account || Shape Inheritance
+
+Complex Number || Book Class || Person–Employee–Student
+
+Method Overloading Calculator || Time Addition || Matrix Operations
+
+Polynomial Class || Currency Converter || Basic Logger
+
+Employee Salary Management || Mobile Contact App || Simple Chat Class
+
+Product Inventory || College Department System || Digital Clock
+
+🔹 Advanced OOP Design Questions
+
+Parking Lot System || LRU Cache || Library System || Online Book Reader
+
+File System || Vending Machine || Elevator System || Chess Game
+
+Tic Tac Toe || ATM Machine || Movie Ticket Booking || School Management
+
+Car Rental System || Shopping Cart || Snake and Ladder
+
+Flight Reservation System || Job Scheduling System || Food Delivery App
+
+Online Banking System || Expense Tracker App || Stock Trading System
+
+Cab Booking System || Online Quiz App || Hotel Booking System
+
+Social Media Post Feed || Task Management App || Doctor Appointment System
+
+Online Polling System || Event Calendar App || News Aggregator System
