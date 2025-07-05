@@ -39,6 +39,11 @@
 
 
 
+---
+---
+---
+---
+---
 
 # ✅ Recommendation for Placements
 
@@ -58,13 +63,17 @@ If you're preparing for ``off-campus/on-campus placements`` in ``product-based c
 ``Disk Scheduling Algorithms``  ||  ``Deadlock Detection & Avoidance``  
 ``Thread vs Process``  ||  ``TLB (Translation Lookaside Buffer)``  ||  ``Virtual Memory``
 
+
+
+
+
+
+
 ---
-
-
-
-
-
-
+---
+---
+---
+---
 # 📘 Operating Systems – Gate Smashers (Complete Course Breakdown)
 
 ---
