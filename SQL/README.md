@@ -200,14 +200,24 @@ These topics aren’t covered in the playlist but are **frequently asked in seni
 
 ## 🧠 Practice Platforms Summary
 
-| Platform          | Best For                                  |
-|-------------------|--------------------------------------------|
-| **LeetCode SQL**  | Classic interview-style SQL questions      |
-| **StrataScratch** | Real-world, company-specific problems      |
-| **Mode SQL**      | Visual, beginner-friendly SQL tutorials    |
-| **HackerRank SQL**| Tiered practice (Easy → Hard)              |
-| **SQLZoo**        | Interactive learning modules               |
-| **DB-Fiddle**     | Quick testing for SQL query output         |
+| Platform              | Best For                                        |
+| --------------------- | ----------------------------------------------- |
+| **LeetCode SQL**      | Classic interview-style SQL questions           |
+| **StrataScratch**     | Real-world, company-specific problems           |
+| **Mode SQL**          | Visual, beginner-friendly SQL tutorials         |
+| **HackerRank SQL**    | Tiered practice (Easy → Hard)                   |
+| **SQLZoo**            | Interactive learning modules                    |
+| **DB-Fiddle**         | Quick testing for SQL query output              |
+| **SQLBolt**           | Guided lessons with instant query feedback      |
+| **Kaggle SQL**        | Hands-on practice with real datasets (BigQuery) |
+| **DataCamp SQL**      | Video-based learning with built-in exercises    |
+| **W3Schools SQL**     | Syntax reference and beginner exercises         |
+| **TestDB**            | Practice with your own schema and data          |
+| **SQLiteOnline**      | In-browser SQL environment for SQLite practice  |
+| **SelectStar SQL**    | Gamified SQL challenges with levels             |
+| **Vertabelo Academy** | Structured SQL courses and quizzes              |
+| **Codecademy SQL**    | Interactive lessons in a broader dev curriculum |
+
 
 ---
 
