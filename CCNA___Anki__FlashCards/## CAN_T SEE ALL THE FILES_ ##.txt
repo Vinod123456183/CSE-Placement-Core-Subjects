@@ -6,4 +6,5 @@ All of the lab files are in this Drive, but if you're having trouble seeing them
 and/or
 2) Log in to Google (if you aren't logged in)
 
-That should allow you to see all of the files!
+
+That should allow you to see all of the files! 
