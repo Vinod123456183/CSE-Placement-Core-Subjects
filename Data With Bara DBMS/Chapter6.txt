@@ -1,0 +1,234 @@
+👗👗👗 Chapter   6 👗👗👗 
+  Combining Data
+    Joins
+
+Joins = Table wider , requ key that is common in both the table
+Set = table longer , req same no of columns
+
+why Joins
+
+-> Recombine Data = like col of single can be spread in multiple tables
+
+Left join  => return all row from left  and only matching from right
+inner  => common from both
+Full  join  => return all rows from both tables , order doesn't matter
+Left anti join  => return row from left that has no match in right
+Full anti join => return all row that don't match in either tables  
+only unmatched data
+
+
+
+select * from customers;
+select * from orders;
+
+/* Get All customers along with there orders
+	but only for customers who have placed an order
+*/
+
+/*
+	interview Quesstion
+	-> is order matters in inner join
+	ans = no , we can write anywhere tables to execute
+*/
+
+select 
+	customers.id , customers.first_name , 
+	orders.order_id , orders.sales
+	from customers
+	inner join orders
+	on customers.id = orders.customer_id
+
+
+
+select 
+	c.id , c.first_name , 
+	o.order_id , o.sales
+	from customers as c
+	inner join orders as o
+	on c.id = o.customer_id
+
+
+
+-- Get all customer  along with there orders including those without orders
+-- along with means = join
+
+select * from customers
+select * from orders
+
+/* inerview qu
+	yes order matter in left join
+*/
+
+select * from customers as c
+	left join orders as o
+	on c.id=o.customer_id
+
+
+return all from right and only matching from left
+
+/*	Get all customer  along with there  
+	orders  including without matching customers */
+
+select * from customers
+select * from orders
+
+/* inerview qu
+	yes order matter in right join
+*/
+
+select * from customers as c
+	right join orders as o
+	on c.id=o.customer_id
+
+
+
+
+
+
+select * from customers
+select * from orders
+
+--get all customer  who havent placed any order
+
+select * from customers as c
+	left join
+	orders as o on 
+	c.id = o.order_id
+	where o.customer_id=null
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ select * from customers
+select * from orders
+
+--get all customer  without order and order without customer
+
+will use sull anti joins
+[08-08-2025 21:58] blocked: /*
+	get all customer along with there order but only for customer who have 
+	placed an order 
+	without inner joins
+*/
+
+select * from 
+	customers as c
+	left join orders as o
+	on c.id = o.customer_id
+	where o.customer_id is not null
+
+ cross join
+
+combine  every row from left  with every row from right
+ all possible combinations = cartesian join
+ order not matters
+ /* generate all possible combination of customers and orders */
+
+select * from customers cross join orders
+ blocked: if left fails use inner joins
+ blocked: /*
+using sales db , retrieve list of all orders  along with the related customers , products,
+employe details . for each order display 
+order id , customer name, product name ,sales , price , slaes person name */
+
+galat aara h
+select orderid as oid , 
+	sales as s
+	from orders as o 
+	left join 
+	s.customers as c
+	o.CustomerID = c.CustomerID
+[09-08-2025 18:44] blocked: -- set Operators
+[09-08-2025 18:49] blocked: what are sql clauses
+[09-08-2025 18:58] blocked: -- set Operators
+
+/*	Rules -> 
+	-- we can use sql claueses
+	-- orderby claues last me and use once
+	-- colimn should be same no 
+	-- same data type hona chaiye
+	-- column name in result set r determined by column name specified in first querty
+	-- first query controls column name
+	-- if sql have no error so the result me be wrong , depend on person like it may join id and salry
+	-- mapping correct column */
+
+select firstname , lastname 
+	from customers
+	union
+select firstname , lastname 
+	from employees
+[09-08-2025 18:59] blocked: union =
+[09-08-2025 19:00] blocked: union return all row from both query without duplicate
+union all return all row from both query  with duplcicates
+[09-08-2025 19:01] blocked: union all faster then union
+[09-08-2025 19:01] blocked: if confident no duplicate use  union all
+else
+[09-08-2025 19:02] blocked: union all = to find duplicate and quality issue
+[09-08-2025 19:03] blocked: Except
+
+return all distinct row from the first query that are not found in second query
+[09-08-2025 19:05] blocked: intersect 
+common return from both
+[09-08-2025 19:21] blocked: -- orders data are stored in seperate table (orders and order archeive)
+-- combine all order data into one report  withoit duplicates
+
+/*
+Nevwe use * to combine to tables
+use below method 
+*/
+
+
+select 'Order_Table' as SourceTable ,
+        [orderid] ,
+       [productid]
+      ,[customerid]
+      ,[salespersonid]
+      ,[orderdate]
+      ,[shipdate]
+      ,[orderstatus]
+      ,[shipaddress]
+      ,[billaddress]
+      ,[quantity]
+      ,[sales]
+      ,[creationtime] from orders 
+union 
+select 'Order_Archeive' as SourceTable ,
+       [orderid] ,
+       [productid]
+      ,[customerid]
+      ,[salespersonid]
+      ,[orderdate]
+      ,[shipdate]
+      ,[orderstatus]
+      ,[shipaddress]
+      ,[billaddress]
+      ,[quantity]
+      ,[sales]
+      ,[creationtime]  from orders_archive
+order by orderid asc
+[09-08-2025 19:25] blocked: Except
+
+while creating data pipe line we can use except jiise purane wese k waise rahe and new wale add
+useful for data engineering
+[09-08-2025 19:26] blocked: except
+
+ek database se dusre me bjna done by except
+
+to check identical tables
+
+
