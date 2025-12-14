@@ -1,5 +1,3 @@
-
-/*
 ## 🟢 EASY QUESTIONS
 
 1. Display all records from the table.
@@ -38,5 +36,3 @@
 28. Find customers who placed orders with **all different statuses**.
 29. Display the **top 2 customers by number of orders**.
 30. Find customers whose **total quantity ordered is greater than the overall average quantity**.
-
-*/
