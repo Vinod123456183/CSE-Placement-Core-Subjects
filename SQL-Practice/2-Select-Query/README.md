@@ -1,3 +1,7 @@
+
+![Img](images/diagram.png)
+
+
 ## 🟢 EASY QUESTIONS
 
 1. Display all records from the table.
