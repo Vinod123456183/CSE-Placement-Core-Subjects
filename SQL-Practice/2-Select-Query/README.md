@@ -1,5 +1,5 @@
 
-![Img](images/diagram.png)
+![Img](img.png)
 
 
 ## 🟢 EASY QUESTIONS
