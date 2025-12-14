@@ -1,4 +1,1 @@
-**!\[img](img.png)**
-
-
-
+![Diagram](images/diagram.png)
