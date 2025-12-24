@@ -1,0 +1,369 @@
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+#1️⃣ CCNP Data Center Roadmap
+
+### Phase 0: Foundations (Must-Have)
+
+* Networking basics refresher
+
+  * OSI & TCP/IP models
+  * VLANs & Trunking
+  * IP addressing & subnetting
+  * Routing vs Switching
+* Linux basics
+* Virtualization basics (VMs, hypervisors)
+
+---
+
+### Phase 1: Cisco Data Center Core Concepts
+
+* Data Center architecture overview
+* Spine-Leaf topology
+* East-West vs North-South traffic
+* Underlay vs Overlay networks
+
+---
+
+### Phase 2: Switching (NX-OS)
+
+* Cisco NX-OS overview
+* VLANs in Data Center
+* vPC (Very important)
+
+  * vPC concepts
+  * vPC peer link
+  * vPC keepalive
+* Layer 2 protocols
+
+  * STP (RSTP, MST)
+  * FabricPath (basic)
+
+---
+
+### Phase 3: Routing in Data Center
+
+* OSPF in DC
+* BGP basics
+* BGP in Spine-Leaf
+* Anycast gateway
+
+---
+
+### Phase 4: Cisco ACI (Most Important)
+
+* ACI architecture
+
+  * APIC
+  * Spine & Leaf roles
+* ACI logical model
+
+  * Tenants
+  * VRFs
+  * Bridge Domains
+  * EPGs
+* Contracts & Filters
+* ACI fabric policies
+* Micro-segmentation
+
+---
+
+### Phase 5: Data Center Services
+
+* Load balancing basics
+* Storage networking
+
+  * SAN vs NAS
+  * Fibre Channel basics
+* Multicast in DC
+
+---
+
+### Phase 6: Automation & Monitoring
+
+* REST APIs
+* Basic Python for networking
+* Cisco DC telemetry
+* Troubleshooting tools
+
+---
+
+# 2️⃣ CCNP Security Roadmap
+
+### Phase 0: Security Fundamentals
+
+* CIA triad
+* Threats & attacks
+* Firewalls vs IDS vs IPS
+* VPN basics
+
+---
+
+### Phase 1: Cisco Firewall (Firepower)
+
+* Firewall fundamentals
+* Stateful inspection
+* Cisco Firepower architecture
+* Access Control Policies
+* NAT
+* URL filtering
+* Application control
+
+---
+
+### Phase 2: VPN Technologies
+
+* IPsec fundamentals
+* Site-to-Site VPN
+* Remote Access VPN
+* SSL VPN
+* IKEv1 vs IKEv2
+
+---
+
+### Phase 3: Identity & Access Security
+
+* AAA concepts
+* Cisco ISE basics
+* 802.1X
+* Network Access Control (NAC)
+* TrustSec overview
+
+---
+
+### Phase 4: Network Threat Defense
+
+* IDS vs IPS
+* Cisco Firepower IPS
+* Malware protection
+* Security Intelligence feeds
+
+---
+
+### Phase 5: Secure Network Design
+
+* DMZ design
+* Segmentation
+* Zero Trust basics
+* Security best practices
+
+---
+
+# 3️⃣ Cisco SD-WAN Roadmap
+
+### Phase 0: WAN & Routing Basics
+
+* MPLS vs Internet
+* WAN challenges
+* QoS basics
+* BGP & OSPF refresher
+
+---
+
+### Phase 1: SD-WAN Fundamentals
+
+* What is SD-WAN
+* Traditional WAN vs SD-WAN
+* Overlay networking
+* Control vs Data plane
+
+---
+
+### Phase 2: Cisco SD-WAN Architecture
+
+* vManage
+* vSmart
+* vBond
+* WAN Edge routers
+
+---
+
+### Phase 3: Control Policies
+
+* Centralized policies
+* Local policies
+* Data policies
+* Application-aware routing
+
+---
+
+### Phase 4: Security in Cisco SD-WAN
+
+* Built-in firewall
+* IPsec tunnels
+* Segmentation
+* Secure internet breakout
+
+---
+
+### Phase 5: Operations & Troubleshooting
+
+* Monitoring via vManage
+* Logs & alerts
+* Common SD-WAN issues
+
+---
+
+# 4️⃣ Versa SD-WAN Roadmap
+
+### Phase 0: SD-WAN Basics (Same as Cisco)
+
+* Overlay concepts
+* WAN transport types
+* VPN tunneling
+
+---
+
+### Phase 1: Versa Architecture
+
+* Versa Director
+* Versa Controller
+* Versa Analytics
+* Versa FlexVNF
+
+---
+
+### Phase 2: Versa Networking
+
+* Device onboarding
+* WAN interfaces
+* Routing protocols
+* Path selection
+
+---
+
+### Phase 3: Versa Security (Strong Area)
+
+* Versa firewall
+* IDS/IPS
+* Secure Web Gateway
+* Zero Trust concepts
+
+---
+
+### Phase 4: Multi-Tenant & Enterprise Design
+
+* Tenant creation
+* Segmentation
+* Role-based access
+
+---
+
+### Phase 5: Monitoring & Troubleshooting
+
+* Versa Analytics
+* Logs & reports
+* Performance monitoring
+
+---
+
+# 5️⃣ Juniper Networks Roadmap
+
+### Phase 0: Juniper Basics
+
+* Junos OS overview
+* CLI structure
+* Configuration modes
+* Commit & rollback
+
+---
+
+### Phase 1: Juniper Routing
+
+* Interfaces & addressing
+* Static routing
+* OSPF
+* BGP basics
+
+---
+
+### Phase 2: Juniper Switching
+
+* VLANs
+* Trunking
+* STP
+* LAG
+
+---
+
+### Phase 3: Juniper Security (SRX)
+
+* Zone-based firewall
+* Security policies
+* NAT
+* VPNs
+
+---
+
+### Phase 4: Advanced Juniper
+
+* High availability
+* Chassis clustering
+* Automation (Juniper PyEZ)
+
+---
+
+# 6️⃣ Azure Cloud Security Roadmap
+
+### Phase 0: Cloud Fundamentals
+
+* What is cloud computing
+* IaaS, PaaS, SaaS
+* Shared responsibility model
+
+---
+
+### Phase 1: Azure Basics
+
+* Azure subscriptions
+* Resource groups
+* Azure Virtual Networks (VNet)
+* Subnets & NSGs
+
+---
+
+### Phase 2: Identity & Access
+
+* Azure Active Directory
+* Users & groups
+* RBAC
+* Conditional access
+
+---
+
+### Phase 3: Network Security
+
+* Network Security Groups
+* Azure Firewall
+* Application Gateway
+* DDoS protection
+
+---
+
+### Phase 4: Workload Protection
+
+* Azure Defender
+* VM security
+* Endpoint protection
+* Security baselines
+
+---
+
+### Phase 5: Monitoring & Compliance
+
+* Azure Monitor
+* Security Center
+* Logs & alerts
+* Compliance policies
+
+---
+
+# 🔥 Recommended Learning Order (Very Important)
+
+If you want **best career growth**, follow this order:
+
+1️⃣ CCNP Security
+2️⃣ Cisco SD-WAN
+3️⃣ Azure Cloud Security
+4️⃣ CCNP Data Center
+5️⃣ Versa SD-WAN
+6️⃣ Juniper Networks
