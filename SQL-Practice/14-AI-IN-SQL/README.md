@@ -1,6 +1,3 @@
-Here’s a **clean, professional README-style version** of your AI + SQL guide, keeping all your content intact but formatted for readability and clarity:
-
----
 
 ![img](img.png)
 
