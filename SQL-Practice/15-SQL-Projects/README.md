@@ -2,9 +2,6 @@
 
 ![img](img.png)
 
-# SQL Project Roadmap: Beginner → Advanced
-
-**Practice real-world SQL projects to improve your skills step by step.**
 
 ---
 
