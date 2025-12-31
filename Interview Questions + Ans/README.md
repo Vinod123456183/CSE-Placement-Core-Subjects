@@ -1,3 +1,5 @@
+
+
 ---
 
 ## 1️⃣ First: Fix the mindset (this is critical)
@@ -184,3 +186,11 @@ Even top data analysts:
 5. Repeat tomorrow
 
 ---
+
+If you want, I can:
+
+* Create a **weekly timetable**
+* Help you **decide which PDFs to ignore**
+* Make a **data analyst roadmap only for your level**
+
+Just tell me 👍
