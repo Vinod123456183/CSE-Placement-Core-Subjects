@@ -1,660 +1,334 @@
+Below are **ALL questions (previous + current)** answered in **short, simple points** for easy study/revision:
 
+---
 
-**## \*\*HTML Basics\*\***
+## **HTML Basics**
 
+### 1. What are void elements in HTML?
 
+* Elements with **no closing tag**
+* Do not contain content
+* Examples: `<br>`, `<img>`, `<hr>`, `<input>`
 
-**### 1. What are void elements in HTML?**
+---
 
+### 2. Advantage of collapsing white space
 
+* Browser ignores extra spaces and lines
+* Makes code clean and readable
+* Improves consistency
 
-**\* Elements with \*\*no closing tag\*\***
+---
 
-**\* Do not contain content**
+### 3. What are HTML Entities?
 
-**\* Examples: `<br>`, `<img>`, `<hr>`, `<input>`**
+* Used for special characters
+* Start with `&` and end with `;`
+* Example: `&lt;`, `&amp;`
 
+---
 
+### 4. Types of lists in HTML
 
-**---**
+* Ordered list (`<ol>`)
+* Unordered list (`<ul>`)
+* Description list (`<dl>`)
 
+---
 
+### 5. What is the `class` attribute?
 
-**### 2. Advantage of collapsing white space**
+* Used to style **multiple elements**
+* Can be reused
+* Used with CSS/JS
 
+---
 
+### 6. Difference between `id` and `class`
 
-**\* Browser ignores extra spaces and lines**
+* `id` is unique
+* `class` is reusable
+* `id` has higher priority
 
-**\* Makes code clean and readable**
+---
 
-**\* Improves consistency**
+### 7. Multipart form data
 
+* Used for **file uploads**
+* Uses `enctype="multipart/form-data"`
 
+---
 
-**---**
+### 8. HTML layout structure
 
+* `<header>`, `<nav>`, `<main>`
+* `<section>`, `<article>`, `<footer>`
 
+---
 
-**### 3. What are HTML Entities?**
+### 9. Optimize website asset loading
 
+* Compress images
+* Minify CSS/JS
+* Use caching
+* Lazy loading
 
+---
 
-**\* Used for special characters**
+### 10. Formatting tags in HTML
 
-**\* Start with `\&` and end with `;`**
+* `<b>`, `<strong>`
+* `<i>`, `<em>`
+* `<u>`, `<mark>`
 
-**\* Example: `\&lt;`, `\&amp;`**
+---
 
+### 11. Types of Doctype
 
+* HTML5
+* HTML 4.01
+* XHTML
 
-**---**
+---
 
+### 12. Indicating character set
 
+```html
+<meta charset="UTF-8">
+```
 
-**### 4. Types of lists in HTML**
+---
 
+### 13. `<strong>` vs `<b>` and `<em>` vs `<i>`
 
+* `<strong>` / `<em>` → semantic meaning
+* `<b>` / `<i>` → visual only
 
-**\* Ordered list (`<ol>`)**
+---
 
-**\* Unordered list (`<ul>`)**
+## **Intermediate HTML & CSS**
 
-**\* Description list (`<dl>`)**
+### 14. Significance of `<head>` and `<body>`
 
+* `<head>`: metadata, title, CSS, JS
+* `<body>`: visible content
 
+---
 
-**---**
+### 15. Nesting webpages
 
+* Yes, using `<iframe>`
 
+---
 
-**### 5. What is the `class` attribute?**
+### 16. Cell padding vs cell spacing
 
+* Padding: space **inside** cell
+* Spacing: space **between** cells
 
+---
 
-**\* Used to style \*\*multiple elements\*\***
+### 17. Merge rows or columns
 
-**\* Can be reused**
+* `rowspan`
+* `colspan`
 
-**\* Used with CSS/JS**
+---
 
+### 18. Convert inline to block
 
+* Yes, using CSS
+  `display: block;`
 
-**---**
+---
 
+### 19. Position values
 
+* `static`
+* `relative`
+* `absolute`
+* `fixed`
+* `sticky`
 
-**### 6. Difference between `id` and `class`**
+---
 
+### 20. Ways to display elements
 
+* `block`
+* `inline`
+* `inline-block`
+* `none`
 
-**\* `id` is unique**
+---
 
-**\* `class` is reusable**
+### 21. `display:none` vs `visibility:hidden`
 
-**\* `id` has higher priority**
+* `display:none` → removes element
+* `visibility:hidden` → hides but keeps space
 
+---
 
+### 22. Specify link & target
 
-**---**
+```html
+<a href="url" target="_blank">
+```
 
+* `_blank`, `_self`, `_parent`, `_top`
 
+---
 
-**### 7. Multipart form data**
+### 23. Ways to apply CSS
 
+* Inline
+* Internal
+* External
 
+---
 
-**\* Used for \*\*file uploads\*\***
+### 24. `<link>` vs `<a>`
 
-**\* Uses `enctype="multipart/form-data"`**
+* `<link>`: external resources
+* `<a>`: hyperlinks
 
+---
 
+### 25. Include JavaScript
 
-**---**
+* Internal: `<script>`
+* External: `<script src="">`
 
+---
 
+### 26. Scripts in head vs body
 
-**### 8. HTML layout structure**
+* Head: needed before loading
+* Body: improves page speed
 
+---
 
+### 27. Forms in HTML
 
-**\* `<header>`, `<nav>`, `<main>`**
+* Used to collect input
+* Created using `<form>`
 
-**\* `<section>`, `<article>`, `<footer>`**
+---
 
+### 28. Handling events
 
+* Inline events (`onclick`)
+* JavaScript event listeners
 
-**---**
+---
 
+## **HTML5**
 
+### 29. Advantages of HTML5
 
-**### 9. Optimize website asset loading**
+* Multimedia support
+* Semantic elements
+* Offline storage
+* No plugins
 
+---
 
+### 30. Audio and video
 
-**\* Compress images**
+* `<audio>` and `<video>` tags
+* Supports MP3, MP4, OGG
 
-**\* Minify CSS/JS**
+---
 
-**\* Use caching**
+### 31. Inline vs block elements
 
-**\* Lazy loading**
+* Inline: `<span>`, `<a>`
+* Block: `<div>`, `<p>`
 
+---
 
+### 32. `<figure>` vs `<img>`
 
-**---**
+* `<img>`: image only
+* `<figure>`: image + caption
 
+---
 
+### 33. Metadata in HTML5
 
-**### 10. Formatting tags in HTML**
+* `<meta>` tag inside `<head>`
 
+---
 
+### 34. `<datalist>` vs `<select>`
 
-**\* `<b>`, `<strong>`**
+* `<datalist>`: suggestions + typing
+* `<select>`: fixed options
 
-**\* `<i>`, `<em>`**
+---
 
-**\* `<u>`, `<mark>`**
+### 35. Image Map
 
+* Clickable areas on image
+* Uses `<map>` and `<area>`
 
+---
 
-**---**
+### 36. Semantic elements
 
+* Meaningful tags
+* Examples: `<header>`, `<footer>`, `<article>`
 
+---
 
-**### 11. Types of Doctype**
+### 37. Tabular format in HTML
 
+* `<table>`, `<tr>`, `<th>`, `<td>`
 
+---
 
-**\* HTML5**
+### 38. `<meter>` vs `<progress>`
 
-**\* HTML 4.01**
+* `<meter>`: measurement
+* `<progress>`: task completion
 
-**\* XHTML**
+---
 
+### 39. Drag and drop in HTML5
 
+* Yes
+* Uses `draggable` + JS events
 
-**---**
+---
 
+### 40. SVG vs Canvas
 
+* SVG: vector, scalable
+* Canvas: pixel-based, faster
 
-**### 12. Indicating character set**
+---
 
+### 41. Audio file types
 
+* MP3
+* WAV
+* OGG
 
-**```html**
+---
 
-**<meta charset="UTF-8">**
+### 42. Goals of HTML5
 
-**```**
+* Better structure
+* Multimedia
+* Cross-platform support
 
+---
 
+### 43. Web storage in HTML5
 
-**---**
+* Stores data in browser
+* `localStorage`
+* `sessionStorage`
 
+---
 
-
-**### 13. `<strong>` vs `<b>` and `<em>` vs `<i>`**
-
-
-
-**\* `<strong>` / `<em>` → semantic meaning**
-
-**\* `<b>` / `<i>` → visual only**
-
-
-
-**---**
-
-
-
-**## \*\*Intermediate HTML \& CSS\*\***
-
-
-
-**### 14. Significance of `<head>` and `<body>`**
-
-
-
-**\* `<head>`: metadata, title, CSS, JS**
-
-**\* `<body>`: visible content**
-
-
-
-**---**
-
-
-
-**### 15. Nesting webpages**
-
-
-
-**\* Yes, using `<iframe>`**
-
-
-
-**---**
-
-
-
-**### 16. Cell padding vs cell spacing**
-
-
-
-**\* Padding: space \*\*inside\*\* cell**
-
-**\* Spacing: space \*\*between\*\* cells**
-
-
-
-**---**
-
-
-
-**### 17. Merge rows or columns**
-
-
-
-**\* `rowspan`**
-
-**\* `colspan`**
-
-
-
-**---**
-
-
-
-**### 18. Convert inline to block**
-
-
-
-**\* Yes, using CSS**
-
-  **`display: block;`**
-
-
-
-**---**
-
-
-
-**### 19. Position values**
-
-
-
-**\* `static`**
-
-**\* `relative`**
-
-**\* `absolute`**
-
-**\* `fixed`**
-
-**\* `sticky`**
-
-
-
-**---**
-
-
-
-**### 20. Ways to display elements**
-
-
-
-**\* `block`**
-
-**\* `inline`**
-
-**\* `inline-block`**
-
-**\* `none`**
-
-
-
-**---**
-
-
-
-**### 21. `display:none` vs `visibility:hidden`**
-
-
-
-**\* `display:none` → removes element**
-
-**\* `visibility:hidden` → hides but keeps space**
-
-
-
-**---**
-
-
-
-**### 22. Specify link \& target**
-
-
-
-**```html**
-
-**<a href="url" target="\_blank">**
-
-**```**
-
-
-
-**\* `\_blank`, `\_self`, `\_parent`, `\_top`**
-
-
-
-**---**
-
-
-
-**### 23. Ways to apply CSS**
-
-
-
-**\* Inline**
-
-**\* Internal**
-
-**\* External**
-
-
-
-**---**
-
-
-
-**### 24. `<link>` vs `<a>`**
-
-
-
-**\* `<link>`: external resources**
-
-**\* `<a>`: hyperlinks**
-
-
-
-**---**
-
-
-
-**### 25. Include JavaScript**
-
-
-
-**\* Internal: `<script>`**
-
-**\* External: `<script src="">`**
-
-
-
-**---**
-
-
-
-**### 26. Scripts in head vs body**
-
-
-
-**\* Head: needed before loading**
-
-**\* Body: improves page speed**
-
-
-
-**---**
-
-
-
-**### 27. Forms in HTML**
-
-
-
-**\* Used to collect input**
-
-**\* Created using `<form>`**
-
-
-
-**---**
-
-
-
-**### 28. Handling events**
-
-
-
-**\* Inline events (`onclick`)**
-
-**\* JavaScript event listeners**
-
-
-
-**---**
-
-
-
-**## \*\*HTML5\*\***
-
-
-
-**### 29. Advantages of HTML5**
-
-
-
-**\* Multimedia support**
-
-**\* Semantic elements**
-
-**\* Offline storage**
-
-**\* No plugins**
-
-
-
-**---**
-
-
-
-**### 30. Audio and video**
-
-
-
-**\* `<audio>` and `<video>` tags**
-
-**\* Supports MP3, MP4, OGG**
-
-
-
-**---**
-
-
-
-**### 31. Inline vs block elements**
-
-
-
-**\* Inline: `<span>`, `<a>`**
-
-**\* Block: `<div>`, `<p>`**
-
-
-
-**---**
-
-
-
-**### 32. `<figure>` vs `<img>`**
-
-
-
-**\* `<img>`: image only**
-
-**\* `<figure>`: image + caption**
-
-
-
-**---**
-
-
-
-**### 33. Metadata in HTML5**
-
-
-
-**\* `<meta>` tag inside `<head>`**
-
-
-
-**---**
-
-
-
-**### 34. `<datalist>` vs `<select>`**
-
-
-
-**\* `<datalist>`: suggestions + typing**
-
-**\* `<select>`: fixed options**
-
-
-
-**---**
-
-
-
-**### 35. Image Map**
-
-
-
-**\* Clickable areas on image**
-
-**\* Uses `<map>` and `<area>`**
-
-
-
-**---**
-
-
-
-**### 36. Semantic elements**
-
-
-
-**\* Meaningful tags**
-
-**\* Examples: `<header>`, `<footer>`, `<article>`**
-
-
-
-**---**
-
-
-
-**### 37. Tabular format in HTML**
-
-
-
-**\* `<table>`, `<tr>`, `<th>`, `<td>`**
-
-
-
-**---**
-
-
-
-**### 38. `<meter>` vs `<progress>`**
-
-
-
-**\* `<meter>`: measurement**
-
-**\* `<progress>`: task completion**
-
-
-
-**---**
-
-
-
-**### 39. Drag and drop in HTML5**
-
-
-
-**\* Yes**
-
-**\* Uses `draggable` + JS events**
-
-
-
-**---**
-
-
-
-**### 40. SVG vs Canvas**
-
-
-
-**\* SVG: vector, scalable**
-
-**\* Canvas: pixel-based, faster**
-
-
-
-**---**
-
-
-
-**### 41. Audio file types**
-
-
-
-**\* MP3**
-
-**\* WAV**
-
-**\* OGG**
-
-
-
-**---**
-
-
-
-**### 42. Goals of HTML5**
-
-
-
-**\* Better structure**
-
-**\* Multimedia**
-
-**\* Cross-platform support**
-
-
-
-**---**
-
-
-
-**### 43. Web storage in HTML5**
-
-
-
-**\* Stores data in browser**
-
-**\* `localStorage`**
-
-**\* `sessionStorage`**
-
-
-
-**---**
-
-
-
+If you want, I can **compress this into 1-page exam notes**, **MCQs**, or **important questions only** ✅
