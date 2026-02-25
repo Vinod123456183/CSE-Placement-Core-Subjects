@@ -1,0 +1,13 @@
+
+Switch(config)#no ip doma?
+domain  domain-lookup  domain-name  
+Switch(config)#no ip domain-lo
+Switch(config)#no ip domain-lookup 
+
+
+Switch#
+%SYS-5-CONFIG_I: Configured from console by console
+
+Switch#run
+Translating "run"
+% Unknown command or computer name, or unable to find computer address
